@@ -1,0 +1,23 @@
+# 1.2.6
+* link builder implemented.
+
+# 1.2.5
+* co dependency removed.
+
+# 1.2.4 - 1.2.1
+* minor bugs fixed.
+
+# 1.2.0
+* ask, yahoo & baidu search implemented.
+
+# 1.1.8 & 1.1.9
+* aol search implemented.
+
+# 1.1.3
+* files refactored
+
+# 1.1.1 & 1.1.2
+* ci token security issue fixed
+
+# 1.1.0
+* initial release
