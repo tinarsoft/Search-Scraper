@@ -37,16 +37,16 @@
 		"mochatest": "cross-env HEADLESS=0 DEBUG=mocha:*,nightmare:actions*,autokent:* mocha mochatest/mocha-test.js --slow 30000"
 
 	},
-	"homepage": "https://gitlab.com/autokent/search-engine-client",
+	"homepage": "https://github.com/tinarsoft/Search-Scraper",
 	"bugs": {
-		"url": "https://gitlab.com/autokent/search-engine-client/issues",
-		"email": "mehmet.kozan@live.com"
+		"url": "https://github.com/tinarsoft/Search-Scraper/issues",
+		"email": "m.zahedian@live.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.com/autokent/search-engine-client.git"
+		"url": "https://github.com/tinarsoft/Search-Scraper.git"
 	},
-	"author": "Mehmet Kozan <mehmet.kozan@live.com>",
+	"author": "Mehmet Kozan <mehmet.kozan@live.com> -Edited by Majid Zahedian <m.zahedian@live.com> ",
 	"license": "MIT",
 	"engines": {
 		"node": ">=6.8.1"
