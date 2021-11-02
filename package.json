@@ -1,6 +1,6 @@
 {
-	"name": "search-engine-client",
-	"version": "1.2.6",
+	"name": "Search-Scraper",
+	"version": "2.0.0",
 	"description": "A nodejs module to extract links from Google, Bing etc..",
 	"main": "index.js",
 	"keywords": [
