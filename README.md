@@ -1,16 +1,18 @@
-# Search-Scraper
+# search-scraper forked from (search-engine-client)
 
 **A nodejs module to extract links from Google, Bing etc..**
 
 
 ## Installation
-`npm install Search-Scraper`
+`npm install search-scraper`
+or
+`yarn install search-scraper`
 
 ## Usage
 
 ### Google
 ```js
-const sec = require('Search-Scraper');
+const sec = require('search-scraper');
 
 sec.google("text to search").then(function(result){
     console.log(result);
@@ -19,7 +21,7 @@ sec.google("text to search").then(function(result){
 
 ### Bing
 ```js
-const sec = require('Search-Scraper');
+const sec = require('search-scraper');
 
 sec.bing("text to search").then(function(result){
     console.log(result);
@@ -28,7 +30,7 @@ sec.bing("text to search").then(function(result){
 
 ### AOL
 ```js
-const sec = require('Search-Scraper');
+const sec = require('search-scraper');
 
 sec.aol("text to search").then(function(result){
     console.log(result);
@@ -37,7 +39,7 @@ sec.aol("text to search").then(function(result){
 
 ### ASK
 ```js
-const sec = require('Search-Scraper');
+const sec = require('search-scraper');
 
 sec.ask("text to search").then(function(result){
     console.log(result);
@@ -46,7 +48,7 @@ sec.ask("text to search").then(function(result){
 
 ### Yahoo
 ```js
-const sec = require('Search-Scraper');
+const sec = require('search-scraper');
 
 sec.yahoo("text to search").then(function(result){
     console.log(result);
@@ -55,7 +57,7 @@ sec.yahoo("text to search").then(function(result){
 
 ### DuckDuckGo
 ```js
-const sec = require('Search-Scraper');
+const sec = require('search-scraper');
 
 sec.duckduckgo("text to search").then(function(result){
     console.log(result);
@@ -64,7 +66,7 @@ sec.duckduckgo("text to search").then(function(result){
 
 ### Baidu
 ```js
-const sec = require('Search-Scraper');
+const sec = require('search-scraper');
 
 sec.baidu("text to search").then(function(result){
     console.log(result);
@@ -91,7 +93,7 @@ let default_options={
 The minimum link count to extract, higher return count takes more time.
 
 ```js
-const sec = require('Search-Scraper');
+const sec = require('search-scraper');
 
 const options = {
     agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36",
@@ -104,13 +106,13 @@ sec.aol("text to search",options).then(function(result){
 ```
 
 ### offset (number)
-Offset to skip links, not implemented check the [issue.](https://gitlab.com/autokent/Search-Scraper/issues/1)
+Offset to skip links, not implemented check the [issue.](https://gitlab.com/autokent/search-scraper/issues/1)
 
 ### agent (string)
 The User-Agent request header.
 
 ```js
-const sec = require('Search-Scraper');
+const sec = require('search-scraper');
 
 const options = {
     agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
@@ -131,7 +133,7 @@ Prints debug logs.
 Show browser screen.
 
 ```js
-const sec = require('Search-Scraper');
+const sec = require('search-scraper');
 
 const options = {
     agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36",
